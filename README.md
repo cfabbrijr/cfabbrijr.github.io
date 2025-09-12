@@ -8,3 +8,5 @@ Apostila Digital do Curso Programação com Python
 
 Jupyter Notebooks do Curso de Programação Python para Data Science
 
+[Fundamentos de Python](https://colab.research.google.com/drive/1BCexV6vgqJr5Vc9by-O7ZC4xa1rYlGxX?usp=sharing)
+
