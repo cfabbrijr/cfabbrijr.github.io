@@ -1,12 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Github do Fabbri</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --accent: #0b66c3;
+      --text: #222;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 24px;
+    }
+    header {
+      background: linear-gradient(90deg, rgba(11,102,195,0.08), rgba(11,102,195,0.02));
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.04);
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 1.6rem;
+    }
+    p.lead {
+      margin: 0;
+      color: #444;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 12px;
+      box-shadow: 0 6px 18px rgba(15,23,42,0.04);
+    }
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 1.1rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .links li {
+      margin: 8px 0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: background .12s;
+    }
+    .links li:hover {
+      background: rgba(11,102,195,0.04);
+    }
+    footer {
+      margin-top: 28px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Fabbri Jr</h1>
-    
+  <div class="container">
+    <header>
+      <h1>Github do Fabbri</h1>
+      <p class="lead">Página inicial de materiais usados em meus cursos no Senai Suiço-Brasileiro.</p>
+    </header>
+
+    <section class="card">
+      <h2>Apostila Digital</h2>
+      <p>Apostila Digital do Curso <strong>Programação com Python</strong>:</p>
+      <p><a href="https://inky-sprint-8c0.notion.site/Programa-o-Python-60-horas-21060ee6cf7680a6baebc6cb3d90e1a3" target="_blank" rel="noopener">Curso Programação com Python (Notion)</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Jupyter Notebooks</h2>
+      <p>Jupyter Notebooks do Curso de <strong>Programação Python para Data Science</strong>:</p>
+      <ul class="links">
+        <li><a href="https://colab.research.google.com/drive/1BCexV6vgqJr5Vc9by-O7ZC4xa1rYlGxX?usp=sharing" target="_blank" rel="noopener">Fundamentos de Python (Google Colab)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Última atualização: <time datetime="2025-09-12">12 de setembro de 2025</time></p>
+    </footer>
+  </div>
 </body>
 </html>
